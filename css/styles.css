@@ -49,7 +49,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /* header */
@@ -396,13 +396,8 @@ body {
 
 .footer .container {
   display: flex;
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
+  align-items: baseline;
 }
-
-/* .footer .container {
-  
-} */
 
 .logo-footer {
   display: flex;
