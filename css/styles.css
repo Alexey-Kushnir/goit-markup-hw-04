@@ -191,7 +191,8 @@ body {
   background-color: #2196f3;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #188ce8;
 }
 
@@ -339,7 +340,8 @@ body {
   justify-content: center;
 }
 
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: #2196f3;
 }
 
@@ -348,6 +350,10 @@ body {
 }
 
 .team-soc-link:hover .team-soc-icon {
+  fill: #ffffff;
+}
+
+.team-soc-link:focus .team-soc-icon {
   fill: #ffffff;
 }
 
@@ -379,7 +385,8 @@ body {
   align-items: center;
 }
 
-.clients-list-link:hover {
+.clients-list-link:hover,
+.clients-list-link:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
@@ -473,7 +480,8 @@ body {
   justify-content: center;
 }
 
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: #2196f3;
 }
 
