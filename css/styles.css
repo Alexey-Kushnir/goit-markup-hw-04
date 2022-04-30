@@ -186,17 +186,15 @@ body {
   padding: 10px 32px;
   height: 50px;
   min-width: 200px;
-  border: 1px solid #2196f3;
   border-radius: 4px;
   margin: 0 auto;
   background-color: #2196f3;
-  border: ;
+  border: 0;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
-  border: 1px solid #188ce8;
 }
 
 /* преимущества */
@@ -517,7 +515,7 @@ body {
   cursor: pointer;
   height: 38px;
   min-width: 73px;
-  border: 1px solid #f5f4fa;
+  border: 0;
   border-radius: 4px;
   color: #212121;
   background-color: #f5f4fa;
@@ -527,7 +525,6 @@ body {
 .port-nav-btn:focus {
   color: #ffffff;
   background-color: #2196f3;
-  border: 1px solid #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
